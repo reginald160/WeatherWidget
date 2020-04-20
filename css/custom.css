@@ -1,0 +1,58 @@
+
+
+.body{
+	max-width:700px;
+	height: 100vh;
+	border: 1px solid blacK;
+}
+
+.degrees {
+  
+	display:grid;
+	grid-template-columns:auto auto;
+	justify-content:center;
+	margin-left:2rem;
+	font-size:25px;
+  }
+  .description{
+	justify-content:right;
+
+  }
+
+.weather .current
+    {
+
+	display: flex;
+    flex-flow: row wrap;
+     background-image: url(../image/main.jpg);
+   background-repeat:no-repeat;
+   background-position: center;
+   color: whitesmoke;
+	padding: 20px;
+	text-shadow: 1px 1px #F68D2E;		
+            
+ }
+
+ .weather .current .info
+{
+     display: flex;
+    flex-flow: column wrap;
+     justify-content: space-around;
+     flex-grow: 2;
+            }
+
+    .weather .current .info 
+     {
+     font-size: 26px;
+     }
+
+
+    .weather .current .info
+     {
+		font-size: 24px;
+		
+         }
+
+    
+
+    
